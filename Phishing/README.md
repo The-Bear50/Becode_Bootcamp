@@ -13,7 +13,8 @@ Here's an example of it :
 
 On the user's side, the first login redirects to the same page which is actually the real URL, as you can see on top :
 
-![image](https://github.com/The-Bear50/Phishing/assets/85135970/70fc1a8b-c86a-4310-bb00-72538a9b25a9)
+![1](https://github.com/The-Bear50/Becode_Bootcamp/assets/85135970/b8b08644-6188-4b82-9526-44b579825d88)
+
 ![image](https://github.com/The-Bear50/Phishing/assets/85135970/a5ec6f3b-a9fb-4e3f-8f0e-def212aad1b3)
 
 On my side, I got the credentials :
@@ -24,6 +25,6 @@ On my side, I got the credentials :
 
 Couldn't find the time yet in this exercise, but my aim would be to impersonate a Facebook mail that looks like this, but mentioning doglovers groups :
 
-![Untitled](https://github.com/The-Bear50/Phishing/assets/85135970/ab8054ea-34c7-49ab-a4cb-8290f0192db6)
+![Untitled](https://github.com/The-Bear50/Becode_Bootcamp/assets/85135970/334ce9f1-7d54-4cb9-9ba9-22b6f971a194)
 
 The Facebook mail I'd want to fake is "suggestions@facebookmail.com" as this domain is owned by Meta, although the mail address probably doesn't exist.
