@@ -2,6 +2,7 @@ import datetime
 from flask import Flask, render_template, request
 import mysql.connector
 from mysql.connector import Error
+import bleach
 
 app = Flask(__name__)
 
@@ -50,11 +51,11 @@ def contact():
 
     if request.method == 'POST':
         # Getting data from the form
-        name = request.form.get('name')
-        email = request.form.get('email')
-        subject = request.form.get('subject')
-        message = request.form.get('message')
-        date = str(datetime.datetime.now())
+        name = bleach.clean(request.form.get('name'))
+        email = bleach.clean(request.form.get('email'))
+        subject = bleach.clean(request.form.get('subject'))
+        message = bleach.clean(request.form.get('message'))
+        date = bleach.clean(str(datetime.datetime.now()))
 
         # Insert the data into the database
         if cnx:
