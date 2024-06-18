@@ -3,7 +3,7 @@
 ### Skills worked
 
  - Backend: PYTHON programming (introduction to logical structures)
- - Validation of a form
+ - Sanitizaion and validation of a form
  - Implementing POST and GET methods
  - Implementing templates with Jinja
 
